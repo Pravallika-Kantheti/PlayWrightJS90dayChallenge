@@ -34,3 +34,6 @@ console.log(e); // Output: 14 (e was incremented by the previous operation)
 console.log(--e + e--); // Output: 27 (decrements e to 13, then adds it to the current value of e (13) and then decrements e to 12) 
 console.log(e); // Output: 12 (e was decremented by the previous operation)
 
+let t = 10;
+console.log(t++ + ++t); // Output: 22 (returns d (10) then increments it to 11, then increments d to 12 and adds it to the previous value of d (10) 
+console.log(t); // Output: 12 (d was incremented by the previous operation)

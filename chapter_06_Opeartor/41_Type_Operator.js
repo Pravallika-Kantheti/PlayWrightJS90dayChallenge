@@ -42,6 +42,12 @@ console.log(typeof date); // Output: object
 let regex = /abc/;
 console.log(typeof regex); // Output: object
 
+console.log(typeof NaN); // Output: number
+
+console.log(typeof Infinity); // Output: number
+
+console.log(typeof null); // Output: object
+
 let circumference = 2 * Math.PI * 5;
 console.log(typeof circumference); // Output: number
 

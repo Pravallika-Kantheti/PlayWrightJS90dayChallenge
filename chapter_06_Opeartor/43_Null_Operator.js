@@ -31,3 +31,15 @@ let finalInput = userInput ?? defaultInput;
 console.log(finalInput); // Output: Default Input (since userInput is null, it returns defaultInput)
 val = "which milk ->" + val;
 console.log(val); // Output: which milk ->Default Value
+
+// ?? nullish coalescing operator example
+//means - if the value on the left is null or undefined, return the value on the right, otherwise return the value on the left.
+let userName = null;
+let defaultUserName = "Anonymous";
+let displayUserName = userName ?? defaultUserName;
+console.log(displayUserName); // Output: Anonymous (since userName is null, it returns defaultUserName)
+
+let userAge = undefined;
+let defaultUserAge = 18;
+let displayUserAge = userAge ?? defaultUserAge;
+console.log(displayUserAge); // Output: 18 (since userAge is undefined, it returns defaultUserAge)

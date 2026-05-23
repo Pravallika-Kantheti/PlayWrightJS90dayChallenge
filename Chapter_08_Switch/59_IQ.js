@@ -7,7 +7,6 @@ switch (fruit) {
         console.log("This is a banana.");
     case "orange":
         console.log("This is an orange.");
-        break;
     case "grape":
         console.log("This is a grape.");
     default:

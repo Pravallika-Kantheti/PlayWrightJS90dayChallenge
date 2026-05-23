@@ -19,3 +19,10 @@ console.log("" === "0"); // Output: false (empty string is a string and "0" is a
 // - string vs number → coerce string to number
 // - string vs string → byte compare, no coercion
 // - `Number("")`  = 0, `Number("0")`  = 0 — but that path never runs when both sides already strings
+
+console.log(null == undefined); // Output: true (null and undefined are considered equal in non-strict equality)
+console.log(null === undefined); // Output: false (null and undefined are different types, so they are not equal in strict equality)    
+console.log(null == 0); // Output: false (null is only equal to undefined, not to any other value)
+console.log(undefined == 0); // Output: false (undefined is only equal to null, not to any other value)
+console.log(null === 0); // Output: false (strict equality checks for both value and type)
+console.log(undefined === 0); // Output: false (strict equality checks for both value and type)

@@ -37,3 +37,29 @@ let isCI = true;
 let buildStatus = isCI ? "Running in CI environment" : "Running in local environment";
 console.log(buildStatus); // Output: Running in CI environment
 
+//nested ternary operator example
+let dayOfWeek = 3;
+let dayName = dayOfWeek === 1 ? "Monday" :
+    dayOfWeek === 2 ? "Tuesday" :
+        dayOfWeek === 3 ? "Wednesday" :
+            dayOfWeek === 4 ? "Thursday" :
+                dayOfWeek === 5 ? "Friday" :
+                    dayOfWeek === 6 ? "Saturday" : "Sunday";
+console.log(dayName); // Output: Wednesday
+
+let ageGroup = age < 13 ? "Child" :
+    age < 20 ? "Teenager" :
+        age < 65 ? "Adult" : "Senior";
+console.log(ageGroup); // Output: Adult
+
+let statusCode = 404;
+let statusMessage = statusCode < 300 ? "OK" :
+    statusCode < 400 ? "Not Found" :
+        statusCode < 500 ? "Internal Server Error" : "Unknown Status";
+console.log(statusMessage); // Output: Not Found
+
+let a = 10, b = 20, c = 30;
+
+let max = a > b ? (a > c ? a : c) : (b > c ? b : c);
+console.log(max); // Output: 30
+

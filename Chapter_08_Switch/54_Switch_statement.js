@@ -10,6 +10,12 @@
 // This can lead to unintended consequences and bugs in your code, as it may execute code that you did not intend to run. 
 // Therefore, it is important to always include a break statement at the end of each case block in a switch statement to prevent fall-through behavior.
 
+//what is break statement in general
+// A break statement is a control flow statement that is used to exit a loop or a switch statement before it has completed its normal execution.    
+// In a loop, a break statement can be used to exit the loop when a certain condition is met, allowing the program to continue executing the code that follows the loop.
+// In a switch statement, a break statement is used to exit the switch block after a case has been executed, preventing the code from "falling through" to the next case. 
+// The break statement can be used in various programming languages, including JavaScript, C++, Java, and many others.
+
 let day = "Monday";
 
 switch (day) {
