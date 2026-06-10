@@ -39,6 +39,7 @@ learnPlayWright2x/
 |-- chapter_09_User_Input/                        # prompt, readline, prompt-sync
 |-- chapter_10_Loops/                             # for, while, do-while, continue
 |-- chapter_11_Arrays/                            # Array creation, methods, iteration
+|-- chapter_12_Functions/                           # Function types, expressions, arrow functions
 |-- README.md                                     # You are here!
 ```
 
@@ -129,6 +130,17 @@ learnPlayWright2x/
 - **Iteration** - `for`, `for...of`, `forEach()`, `for...in`
 - **Transformation Methods** - `map()`, `filter()`, `reduce()`, `flat()`
 - **Real-World Examples** - Browser lists, test results, score grading
+
+### Chapter 12: Functions
+- **What is a Function** - Reusable block of code, function vs method
+- **Function Declaration** - Using `function` keyword, calling functions
+- **Type 1: No Parameters, No Return** - Simple functions performing tasks
+- **Type 2: With Parameters, No Return** - Passing arguments, parameters vs arguments
+- **Type 3: No Parameters, With Return** - Returning values without input
+- **Type 4: With Parameters, With Return** - Full input/output functions
+- **Template Literals in Functions** - Using backticks for dynamic string output
+- **Function Expressions** - Assigning functions to variables
+- **Arrow Functions** - ES6 concise syntax, implicit returns, single parameter shorthand
 
 ---
 
@@ -254,6 +266,7 @@ npx playwright test
 | Day 9 | `chapter_09_User_Input` | prompt(), readline, prompt-sync, input validation |
 | Day 10 | `chapter_10_Loops` | for, while, do-while, continue, infinite loops |
 | Day 11 | `chapter_11_Arrays` | Array creation, methods, searching, iteration, transformation |
+| Day 12 | `chapter_12_Functions` | Function types, expressions, arrow functions, parameters vs arguments |
 | ... | ... | ... |
 
 ---

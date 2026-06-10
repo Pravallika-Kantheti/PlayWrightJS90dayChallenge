@@ -11,5 +11,7 @@ console.log(d);
 // Join
 let s1 = ["pass", "fail", "skip"];
 console.log(s1);
+console.log(s1.join(""));
+console.log(s1.join(", "));
 let s = ["pass", "fail", "skip"].join("|");
 console.log(s);
