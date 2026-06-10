@@ -38,6 +38,7 @@ learnPlayWright2x/
 |-- Chapter_08_Switch/                            # switch, case, break, default
 |-- chapter_09_User_Input/                        # prompt, readline, prompt-sync
 |-- chapter_10_Loops/                             # for, while, do-while, continue
+|-- chapter_11_Arrays/                            # Array creation, methods, iteration
 |-- README.md                                     # You are here!
 ```
 
@@ -119,6 +120,15 @@ learnPlayWright2x/
 - **The `continue` Statement** - Skipping iterations
 - **Infinite Loops** - Common pitfalls and how to avoid them
 - **Practice Tasks** - Triangle classifier, FizzBuzz
+
+### Chapter 11: Arrays
+- **Array Creation** - Array literals, `new Array()`, `Array.of()`, `Array.from()`
+- **Accessing Elements** - Index-based access, `at()` method, modifying elements
+- **Adding & Removing Elements** - `push()`, `pop()`, `shift()`, `unshift()`, `splice()`
+- **Searching Methods** - `indexOf()`, `lastIndexOf()`, `includes()`, `find()`, `findIndex()`, `findLast()`, `findLastIndex()`
+- **Iteration** - `for`, `for...of`, `forEach()`, `for...in`
+- **Transformation Methods** - `map()`, `filter()`, `reduce()`, `flat()`
+- **Real-World Examples** - Browser lists, test results, score grading
 
 ---
 
@@ -243,6 +253,7 @@ npx playwright test
 | Day 8 | `Chapter_08_Switch` | switch, case, break, default, fall-through, grouping |
 | Day 9 | `chapter_09_User_Input` | prompt(), readline, prompt-sync, input validation |
 | Day 10 | `chapter_10_Loops` | for, while, do-while, continue, infinite loops |
+| Day 11 | `chapter_11_Arrays` | Array creation, methods, searching, iteration, transformation |
 | ... | ... | ... |
 
 ---
