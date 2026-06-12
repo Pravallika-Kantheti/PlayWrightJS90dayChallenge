@@ -29,6 +29,7 @@ function add(a, b) {
 }
 
 const add2 = (a, b) => a + b;
+console.log(add2(10, 20));
 
 function say() {
     console.log("Hi");
@@ -36,8 +37,12 @@ function say() {
 
 const say1 = () => console.log("Hi");
 const say2 = () => 'Hi';
+say1();
+console.log(say2());
 
 const greet = (name) => {
-    const message = "Hi" + name;
+    const message = "Hi " + name;
     return message;
 }
+
+console.log(greet("Pravallika"));
