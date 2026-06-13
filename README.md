@@ -41,6 +41,7 @@ learnPlayWright2x/
 |-- chapter_11_Arrays/                            # Array creation, methods, iteration
 |-- chapter_12_Functions/                           # Function types, expressions, arrow functions
 |-- chapter_13_Strings/                             # String methods, searching, transformation, conversion
+|-- chapter_14_Objects/                             # Object basics, creation, properties, methods, spread
 |-- README.md                                     # You are here!
 ```
 
@@ -165,6 +166,22 @@ learnPlayWright2x/
 - **String Concatenation** - `+`, `+=`, `concat()`, template literals
 - **String Conversion** - `toString()`, `Number()`, `parseInt()`, `parseFloat()`
 - **Cheat Sheet** - Quick reference for all common string methods and gotchas
+
+### Chapter 14: Objects
+- **Object Basics** - Empty object `{}`, key-value pairs, object vs JSON
+- **Object Creation** - Object literal syntax, dot notation, bracket notation
+- **Property Access** - `obj.key`, `obj["key"]`, dynamic property access with variables
+- **Adding & Modifying Properties** - Assigning new properties, updating existing values
+- **Deleting Properties** - `delete` operator to remove properties
+- **Primitive vs Reference Types** - Value copy vs reference copy, mutation behavior
+- **Object Methods** - Functions inside objects (`add()`, `subtract()`), shorthand method syntax
+- **Getters & Setters** - `get` and `set` keywords for computed properties, `this` keyword
+- **Object Destructuring** - Basic destructuring, renaming variables, default values, nested destructuring
+- **Spread Operator with Objects** - Shallow copy (`{...obj}`), merging objects, `let` vs `const` with objects
+- **Object Utility Methods** - `Object.keys()`, `Object.values()`, `Object.entries()`, `Object.getOwnPropertyDescriptor()`
+- **Object Iteration** - `for...in` loop, iterating with `Object.keys/values/entries`
+- **Real-World Examples** - Test config objects, ENV config, API expected responses, nested data structures
+- **Interview Questions** - Object comparison, reference equality, property descriptors, mutation behavior
 
 ---
 
@@ -292,6 +309,7 @@ npx playwright test
 | Day 11 | `chapter_11_Arrays` | Array creation, methods, searching, iteration, transformation |
 | Day 12 | `chapter_12_Functions` | Function types, expressions, arrow functions, default & rest parameters, scope, closures, higher-order, pure functions, IIFE |
 | Day 13 | `chapter_13_Strings` | String basics, properties, searching, slicing, transforming, replacing, splitting, conversion |
+| Day 14 | `chapter_14_Objects` | Object basics, creation, properties, primitive vs reference, methods, getters/setters, destructuring, spread, utility methods |
 | ... | ... | ... |
 
 ---
