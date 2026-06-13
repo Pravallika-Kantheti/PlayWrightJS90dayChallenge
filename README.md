@@ -40,6 +40,7 @@ learnPlayWright2x/
 |-- chapter_10_Loops/                             # for, while, do-while, continue
 |-- chapter_11_Arrays/                            # Array creation, methods, iteration
 |-- chapter_12_Functions/                           # Function types, expressions, arrow functions
+|-- chapter_13_Strings/                             # String methods, searching, transformation, conversion
 |-- README.md                                     # You are here!
 ```
 
@@ -141,6 +142,29 @@ learnPlayWright2x/
 - **Template Literals in Functions** - Using backticks for dynamic string output
 - **Function Expressions** - Assigning functions to variables
 - **Arrow Functions** - ES6 concise syntax, implicit returns, single parameter shorthand
+- **Default Parameters** - Providing default values for function parameters
+- **Rest Parameters** - Handling variable number of arguments with `...rest`
+- **Spread Operator** - Expanding arrays into function arguments with `...`
+- **Function Scope** - Global vs local scope, nested scope, lexical scope
+- **Closures** - Functions retaining access to their outer scope, counter pattern
+- **Higher-Order Functions** - Functions that take or return other functions
+- **Pure Functions** - Predictable functions with no side effects
+- **IIFE (Immediately Invoked Function Expressions)** - Self-executing anonymous functions
+- **Interview Questions** - Function hoisting, variable scope, return behavior, tricky scenarios
+- **API Real-World Examples** - Retry tracker pattern, test automation use cases
+
+### Chapter 13: Strings
+- **String Basics** - Single quotes, double quotes, backticks (template literals), multiline strings
+- **String Constructor** - `String()` wrapper, converting values to strings
+- **String Properties** - `length`, index access (`[]`), `at()`, `charAt()`, `charCodeAt()`
+- **Searching & Checking** - `includes()`, `startsWith()`, `endsWith()`, `indexOf()`, `lastIndexOf()`, `search()`
+- **Extracting Substrings** - `slice()` (supports negatives), `substring()` (no negatives)
+- **Transforming Strings** - `toUpperCase()`, `toLowerCase()`, `trim()`, `trimStart()`, `trimEnd()`
+- **Replacing Text** - `replace()`, `replaceAll()`, regex with `/g` flag
+- **Splitting & Joining** - `split()` to array, `join()` back to string
+- **String Concatenation** - `+`, `+=`, `concat()`, template literals
+- **String Conversion** - `toString()`, `Number()`, `parseInt()`, `parseFloat()`
+- **Cheat Sheet** - Quick reference for all common string methods and gotchas
 
 ---
 
@@ -266,7 +290,8 @@ npx playwright test
 | Day 9 | `chapter_09_User_Input` | prompt(), readline, prompt-sync, input validation |
 | Day 10 | `chapter_10_Loops` | for, while, do-while, continue, infinite loops |
 | Day 11 | `chapter_11_Arrays` | Array creation, methods, searching, iteration, transformation |
-| Day 12 | `chapter_12_Functions` | Function types, expressions, arrow functions, parameters vs arguments |
+| Day 12 | `chapter_12_Functions` | Function types, expressions, arrow functions, default & rest parameters, scope, closures, higher-order, pure functions, IIFE |
+| Day 13 | `chapter_13_Strings` | String basics, properties, searching, slicing, transforming, replacing, splitting, conversion |
 | ... | ... | ... |
 
 ---
