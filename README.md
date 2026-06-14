@@ -42,6 +42,7 @@ learnPlayWright2x/
 |-- chapter_12_Functions/                           # Function types, expressions, arrow functions
 |-- chapter_13_Strings/                             # String methods, searching, transformation, conversion
 |-- chapter_14_Objects/                             # Object basics, creation, properties, methods, spread
+|-- chapter_15_2D_Array.js/                       # 2D arrays, matrices, grid iteration, patterns
 |-- README.md                                     # You are here!
 ```
 
@@ -183,6 +184,15 @@ learnPlayWright2x/
 - **Real-World Examples** - Test config objects, ENV config, API expected responses, nested data structures
 - **Interview Questions** - Object comparison, reference equality, property descriptors, mutation behavior
 
+### Chapter 15: 2D Arrays
+- **2D Array Basics** - Grid and matrix structure, rows and columns
+- **Element Access** - Nested index access (`grid[i][j]`), dimensions (`grid.length`, `grid[0].length`)
+- **Iteration** - Nested `for` loops, `for...of`, `forEach` for 2D arrays
+- **Array Methods with 2D** - `map()` and `reduce()` for row-wise operations
+- **Filtering Data** - Searching and filtering elements across rows/columns
+- **Real-World Examples** - Test result matrices, suite pass/fail tracking, score grids
+- **Pattern Printing** - Right triangle star patterns using nested loops
+
 ---
 
 ## How to Run JS Files
@@ -310,6 +320,7 @@ npx playwright test
 | Day 12 | `chapter_12_Functions` | Function types, expressions, arrow functions, default & rest parameters, scope, closures, higher-order, pure functions, IIFE |
 | Day 13 | `chapter_13_Strings` | String basics, properties, searching, slicing, transforming, replacing, splitting, conversion |
 | Day 14 | `chapter_14_Objects` | Object basics, creation, properties, primitive vs reference, methods, getters/setters, destructuring, spread, utility methods |
+| Day 15 | `chapter_15_2D_Array.js` | 2D arrays, grid/matrix structure, nested iteration, array methods with 2D, real-world test matrices, pattern printing |
 | ... | ... | ... |
 
 ---
