@@ -43,6 +43,7 @@ learnPlayWright2x/
 |-- chapter_13_Strings/                             # String methods, searching, transformation, conversion
 |-- chapter_14_Objects/                             # Object basics, creation, properties, methods, spread
 |-- chapter_15_2D_Array.js/                       # 2D arrays, matrices, grid iteration, patterns
+|-- chapter_16_Callback_Fn/                       # Callback functions, sync vs async, callback hell
 |-- README.md                                     # You are here!
 ```
 
@@ -193,6 +194,16 @@ learnPlayWright2x/
 - **Real-World Examples** - Test result matrices, suite pass/fail tracking, score grids
 - **Pattern Printing** - Right triangle star patterns using nested loops
 
+### Chapter 16: Callback Functions
+- **What is a Callback** - Function passed as argument to another function
+- **Callback Syntax** - Named function, anonymous function, and arrow function callbacks
+- **Synchronous Callbacks** - Blocking execution (`forEach`, custom sync flows)
+- **Asynchronous Callbacks** - Non-blocking execution (`setTimeout`, API simulation)
+- **Callback with Parameters** - Passing data and arguments through callbacks
+- **Callback with Return Values** - Using callback results in parent functions
+- **Callback Hell (Pyramid of Doom)** - Nested callbacks, real-world QA automation flow example
+- **Real-World Examples** - Playwright `test()` callback pattern, login flow automation, API response handling
+
 ---
 
 ## How to Run JS Files
@@ -321,6 +332,7 @@ npx playwright test
 | Day 13 | `chapter_13_Strings` | String basics, properties, searching, slicing, transforming, replacing, splitting, conversion |
 | Day 14 | `chapter_14_Objects` | Object basics, creation, properties, primitive vs reference, methods, getters/setters, destructuring, spread, utility methods |
 | Day 15 | `chapter_15_2D_Array.js` | 2D arrays, grid/matrix structure, nested iteration, array methods with 2D, real-world test matrices, pattern printing |
+| Day 16 | `chapter_16_Callback_Fn` | Callback functions, sync vs async callbacks, callback hell, Playwright test callback pattern, real-world QA automation flows |
 | ... | ... | ... |
 
 ---
