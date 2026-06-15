@@ -44,6 +44,7 @@ learnPlayWright2x/
 |-- chapter_14_Objects/                             # Object basics, creation, properties, methods, spread
 |-- chapter_15_2D_Array.js/                       # 2D arrays, matrices, grid iteration, patterns
 |-- chapter_16_Callback_Fn/                       # Callback functions, sync vs async, callback hell
+|-- chapter_17_Promise/                           # Promises, then/catch/finally, Promise.all, allSettled
 |-- README.md                                     # You are here!
 ```
 
@@ -204,6 +205,19 @@ learnPlayWright2x/
 - **Callback Hell (Pyramid of Doom)** - Nested callbacks, real-world QA automation flow example
 - **Real-World Examples** - Playwright `test()` callback pattern, login flow automation, API response handling
 
+### Chapter 17: Promises
+- **Promise Basics** - Creating promises with `new Promise()`, `resolve` and `reject`
+- **Promise States** - Pending, fulfilled, rejected
+- **`.then()` Method** - Handling successful promise resolution
+- **`.catch()` Method** - Handling promise rejection and errors
+- **`.finally()` Method** - Cleanup code that runs regardless of outcome
+- **Chaining Promises** - Sequential `.then()` calls for step-by-step automation
+- **Promise.resolve() / Promise.reject()** - Quick promise creation helpers
+- **Promise.all()** - Running multiple promises in parallel, failing fast on first rejection
+- **Promise.allSettled()** - Running multiple promises and getting all results (pass/fail)
+- **Real-World Examples** - API response handling, test suite execution, health checks (Auth/DB/Cache)
+- **Interview Questions** - Chaining behavior, error propagation, `.then()` vs `.catch()` flow
+
 ---
 
 ## How to Run JS Files
@@ -333,6 +347,7 @@ npx playwright test
 | Day 14 | `chapter_14_Objects` | Object basics, creation, properties, primitive vs reference, methods, getters/setters, destructuring, spread, utility methods |
 | Day 15 | `chapter_15_2D_Array.js` | 2D arrays, grid/matrix structure, nested iteration, array methods with 2D, real-world test matrices, pattern printing |
 | Day 16 | `chapter_16_Callback_Fn` | Callback functions, sync vs async callbacks, callback hell, Playwright test callback pattern, real-world QA automation flows |
+| Day 17 | `chapter_17_Promise` | Promises, then/catch/finally, chaining, Promise.all, Promise.allSettled, real-world API & test automation examples |
 | ... | ... | ... |
 
 ---
