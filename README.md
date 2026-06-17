@@ -17,9 +17,9 @@ This is a **hands-on learning workspace** where concepts are practiced daily. Ea
 
 | Phase | Topic | Status |
 |-------|-------|--------|
-| **01** | JavaScript Fundamentals | In Progress |
+| **01** | JavaScript Fundamentals | Completed |
 | **02** | TypeScript Mastery | Upcoming |
-| **03** | Playwright Automation | Upcoming |
+| **03** | Playwright Automation | In Progress |
 | **04** | Modern QA & AI Agents | Upcoming |
 
 ---
@@ -45,6 +45,8 @@ learnPlayWright2x/
 |-- chapter_15_2D_Array.js/                       # 2D arrays, matrices, grid iteration, patterns
 |-- chapter_16_Callback_Fn/                       # Callback functions, sync vs async, callback hell
 |-- chapter_17_Promise/                           # Promises, then/catch/finally, Promise.all, allSettled
+|-- chapter_18_AsyncAwait/                        # async/await, sequential vs parallel, real-world Playwright tests
+|-- chapter_19_Playwright_Basics/                 # Playwright setup, first test, locators, assertions, codegen
 |-- README.md                                     # You are here!
 ```
 
@@ -218,6 +220,29 @@ learnPlayWright2x/
 - **Real-World Examples** - API response handling, test suite execution, health checks (Auth/DB/Cache)
 - **Interview Questions** - Chaining behavior, error propagation, `.then()` vs `.catch()` flow
 
+### Chapter 18: Async/Await
+- **`async` Function** - Declaring async functions, implicit promise return
+- **`await` Keyword** - Pausing execution until a promise resolves
+- **`try/catch/finally`** - Error handling in async code
+- **Converting Promises to Async/Await** - Refactoring `.then()` chains to `await` syntax
+- **Pyramid of Doom to Async/Await** - Cleaning up deeply nested callbacks
+- **Sequential Execution** - Running async steps one after another with `await`
+- **Parallel Execution** - Running multiple async operations with `Promise.all()` + `await`
+- **Real-World Playwright Tests** - Using `async/await` in Playwright test functions, `test.step()` for structured tests
+- **Interview Questions** - Async function behavior, `await` edge cases, mixing sync and async
+
+### Chapter 19: Playwright Basics
+- **Playwright Installation** - Installing `@playwright/test`, browser binaries
+- **Project Setup** - `package.json`, `playwright.config.ts`, test directory structure
+- **First Test** - Writing a basic test with `test()` and `page.goto()`
+- **Fixtures** - Using built-in `page` fixture for browser automation
+- **Locators** - `page.locator()`, `getByText()`, attribute-based selectors, `data-test` attributes
+- **Actions** - `click()`, `fill()`, `goto()`
+- **Assertions** - `expect(page).toHaveTitle()`, `toContainText()`, `toBeHidden()`
+- **Codegen** - Recording user actions with `npx playwright codegen`
+- **HTML Reporting** - Built-in HTML reporter configuration
+- **Real-World Example** - End-to-end login flow automation with TTACart
+
 ---
 
 ## How to Run JS Files
@@ -348,6 +373,8 @@ npx playwright test
 | Day 15 | `chapter_15_2D_Array.js` | 2D arrays, grid/matrix structure, nested iteration, array methods with 2D, real-world test matrices, pattern printing |
 | Day 16 | `chapter_16_Callback_Fn` | Callback functions, sync vs async callbacks, callback hell, Playwright test callback pattern, real-world QA automation flows |
 | Day 17 | `chapter_17_Promise` | Promises, then/catch/finally, chaining, Promise.all, Promise.allSettled, real-world API & test automation examples |
+| Day 18 | `chapter_18_AsyncAwait` | async/await, try/catch/finally, sequential vs parallel execution, Pyramid of Doom cleanup, Playwright test examples |
+| Day 19 | `chapter_19_Playwright_Basics` | Playwright setup, first test, fixtures, locators, actions, assertions, codegen, HTML reporting, TTACart login flow |
 | ... | ... | ... |
 
 ---
