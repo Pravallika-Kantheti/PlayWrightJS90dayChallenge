@@ -47,6 +47,12 @@ learnPlayWright2x/
 |-- chapter_17_Promise/                           # Promises, then/catch/finally, Promise.all, allSettled
 |-- chapter_18_AsyncAwait/                        # async/await, sequential vs parallel, real-world Playwright tests
 |-- chapter_19_Playwright_Basics/                 # Playwright setup, first test, locators, assertions, codegen
+|-- chapter_20_Export_Import/                     # ES Modules: named exports, default exports, import aliases
+|-- chapter_21_Class_Objects/                     # Classes, objects, constructors, this, static, private/public fields
+|-- chapter_22_Encapsulation/                     # Encapsulation with #private fields, getters/setters, real-world examples
+|-- chapter_23_Inheritance/                       # Single, multilevel, hierarchical inheritance, super keyword, overriding
+|-- chapter_24_OOPS_Interview_questions/          # OOP interview questions: class, constructor, this, method chaining
+|-- chapter_25_Polymorphism/                      # Method overriding, duck typing, polymorphism in test automation
 |-- README.md                                     # You are here!
 ```
 
@@ -243,6 +249,63 @@ learnPlayWright2x/
 - **HTML Reporting** - Built-in HTML reporter configuration
 - **Real-World Example** - End-to-end login flow automation with TTACart
 
+### Chapter 20: Export & Import (ES Modules)
+- **Named Exports** - Exporting multiple variables and functions with `export`
+- **Default Exports** - Exporting a single main entity with `export default`
+- **Import Syntax** - Importing named (`import { }`) vs default (`import x from`)
+- **Import Aliases** - Using `as` to resolve naming conflicts (`import { x as y }`)
+- **Mixing Default + Named** - Importing both from one module
+- **Real-World Examples** - Utility modules (utils.js, testutils.js, logger.js) for test automation
+
+### Chapter 21: Classes & Objects
+- **Class Basics** - Blueprint/template for objects, defining attributes and behavior
+- **Object Creation** - Instantiating with `new`, object references
+- **Constructor** - Special method for initialization, parameterized constructors
+- **`this` Keyword** - Refers to current object instance
+- **Public Fields** - Accessible from outside the class
+- **Private Fields (`#`)** - Hidden data using `#` prefix (ES2022)
+- **Getters & Setters** - Controlled access to private properties
+- **Static Members** - Class-level variables and methods shared across all instances
+- **Real-World Examples** - Browser class, TestCase class, Car class, Credentials class
+
+### Chapter 22: Encapsulation
+- **What is Encapsulation** - Bundling data and methods, restricting direct access
+- **Private Fields (`#`)** - Truly private data in JavaScript classes
+- **Controlled Access** - Using getter/setter methods for safe data interaction
+- **Validation in Setters** - Role-based access, input validation
+- **Real-World Examples** - BankAccount, Person, Car, ICICI Bank with cashier validation, Token masking
+
+### Chapter 23: Inheritance
+- **What is Inheritance** - Reusing parent class properties and methods
+- **`extends` Keyword** - Creating child classes
+- **`super()` in Constructor** - Calling parent constructor from child
+- **`super.method()`** - Calling parent methods from overridden child methods
+- **Single Inheritance** - One child extends one parent
+- **Method Overriding** - Redefining parent methods in child classes
+- **Hierarchical Inheritance** - One parent, multiple children (TestCase → UnitTest/APITest/E2ETest)
+- **Multilevel Inheritance** - Chain inheritance (BasePage → AuthPage → AdminPage)
+- **Multiple Inheritance** - Not supported in JavaScript (and why)
+- **Real-World Examples** - Page Object Model, Test Framework hierarchy
+
+### Chapter 24: OOP Interview Questions
+- **Class & Object** - Creating classes, instantiating objects
+- **Constructor with Default Values** - Default parameters in constructors
+- **`this` Keyword** - Understanding object context
+- **Method Chaining** - Returning `this` for fluent interfaces
+- **Private Fields** - `#` prefix for encapsulation
+- **Practice Exercises** - Bug tracker, Environment config, User greeting, Counter chaining, Token masking
+
+### Chapter 25: Polymorphism
+- **What is Polymorphism** - "Many forms" - same method, different behavior
+- **Method Overriding** - Child class redefines parent method (runtime polymorphism)
+- **Duck Typing** - Different objects responding to the same method call
+- **Method Overloading Simulation** - Using rest parameters and default values in JS
+- **Polymorphism in Test Automation** - Base `TestCase` class with UI, API, Performance test types
+- **Polymorphism with Shapes** - Rectangle, Circle, Triangle with same `getArea()` interface
+- **Using `super` for Extended Behavior** - Calling parent method AND adding child-specific logic
+- **Real-World Examples** - Payment gateways, notification systems, browser drivers, Page Object Model
+- **Practice Exercises** - Payment gateway, notification system, browser driver pattern
+
 ---
 
 ## How to Run JS Files
@@ -375,6 +438,12 @@ npx playwright test
 | Day 17 | `chapter_17_Promise` | Promises, then/catch/finally, chaining, Promise.all, Promise.allSettled, real-world API & test automation examples |
 | Day 18 | `chapter_18_AsyncAwait` | async/await, try/catch/finally, sequential vs parallel execution, Pyramid of Doom cleanup, Playwright test examples |
 | Day 19 | `chapter_19_Playwright_Basics` | Playwright setup, first test, fixtures, locators, actions, assertions, codegen, HTML reporting, TTACart login flow |
+| Day 20 | `chapter_20_Export_Import` | Named exports, default exports, import aliases, mixing default + named, ES modules for test utilities |
+| Day 21 | `chapter_21_Class_Objects` | Classes, objects, constructors, `this`, public/private fields, getters/setters, static members |
+| Day 22 | `chapter_22_Encapsulation` | Private fields with `#`, controlled access, validation in setters, real-world encapsulation examples |
+| Day 23 | `chapter_23_Inheritance` | Single, multilevel, hierarchical inheritance, `super()`, method overriding, Page Object Model patterns |
+| Day 24 | `chapter_24_OOPS_Interview_questions` | OOP interview prep: constructors, `this`, method chaining, private fields, practice exercises |
+| Day 25 | `chapter_25_Polymorphism` | Method overriding, duck typing, polymorphism in test automation, shapes example, Page Object Model, simulated overloading |
 | ... | ... | ... |
 
 ---
