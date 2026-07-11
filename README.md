@@ -53,6 +53,8 @@ learnPlayWright2x/
 |-- chapter_23_Inheritance/                       # Single, multilevel, hierarchical inheritance, super keyword, overriding
 |-- chapter_24_OOPS_Interview_questions/          # OOP interview questions: class, constructor, this, method chaining
 |-- chapter_25_Polymorphism/                      # Method overriding, duck typing, polymorphism in test automation
+|-- chapter_26_Typescript/                        # TypeScript basics: types, void vs never, function annotations
+|-- chapter_27_Typescript_Interface/              # Interface, abstraction, abstract classes, access modifiers
 |-- README.md                                     # You are here!
 ```
 
@@ -306,6 +308,33 @@ learnPlayWright2x/
 - **Real-World Examples** - Payment gateways, notification systems, browser drivers, Page Object Model
 - **Practice Exercises** - Payment gateway, notification system, browser driver pattern
 
+### Chapter 26: TypeScript Basics
+- **What is TypeScript** - Superset of JavaScript with static type checking
+- **Primitive Types** - `string`, `number`, `boolean`, `null`, `undefined`, `any`, `unknown`
+- **Type Inference** - TypeScript automatically detects types
+- **Arrays & Objects** - Typed arrays and object annotations
+- **Function Annotations** - Parameter types and return types
+- **`void` vs `never`** - Returns nothing vs never returns (complete comparison table)
+- **Type Guards** - Narrowing types with `typeof` checks
+- **Exhaustive Checking** - Using `never` for switch/if-else completeness
+- **Why TypeScript for QA** - Compile-time error detection, IntelliSense, safe refactoring
+- **Practice Exercises** - Type annotations, function types, error handling with never
+
+### Chapter 27: TypeScript Interface & Abstraction
+- **What is Interface** - Contract that defines object shape, blueprint for classes
+- **Interface vs Type** - Comparison table, when to use each
+- **Interface Declaration** - Basic, optional properties (`?`), readonly properties, methods
+- **Interface with Classes** - `implements` keyword, enforcing contracts
+- **Interface Inheritance** - `extends` keyword, creating type hierarchies
+- **What is Abstraction** - Hiding complexity, showing only essentials
+- **Abstract Classes** - Cannot instantiate, abstract methods, concrete methods
+- **Interface vs Abstract Class** - Detailed comparison table
+- **Access Modifiers** - `public`, `private`, `protected` with abstraction
+- **Template Method Pattern** - Abstract class defining algorithm skeleton
+- **Practical Example** - Test automation framework with IBrowser interface + BaseTest abstract class
+- **Advanced Interfaces** - Function types, indexable types, multiple interface implementation
+- **Practice Exercises** - IVehicle, Shape hierarchy, DataProcessor, multiple interfaces
+
 ---
 
 ## How to Run JS Files
@@ -444,6 +473,8 @@ npx playwright test
 | Day 23 | `chapter_23_Inheritance` | Single, multilevel, hierarchical inheritance, `super()`, method overriding, Page Object Model patterns |
 | Day 24 | `chapter_24_OOPS_Interview_questions` | OOP interview prep: constructors, `this`, method chaining, private fields, practice exercises |
 | Day 25 | `chapter_25_Polymorphism` | Method overriding, duck typing, polymorphism in test automation, shapes example, Page Object Model, simulated overloading |
+| Day 26 | `chapter_26_Typescript` | TypeScript basics: primitive types, void vs never, function annotations, type guards, exhaustive checking |
+| Day 27 | `chapter_27_Typescript_Interface` | Interface, abstraction, abstract classes, interface vs abstract class, access modifiers, template method pattern |
 | ... | ... | ... |
 
 ---

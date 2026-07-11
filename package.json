@@ -1,0 +1,27 @@
+{
+  "name": "learnplaywright2x",
+  "version": "1.0.0",
+  "description": "> **Daily Learning Workspace for Modern QA Automation** > Mastering JavaScript, TypeScript, Playwright & AI-Powered Testing",
+  "main": "chapter_15_2D_Array.js",
+  "scripts": {
+    "ts": "ts-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pravallika-Kantheti/PlayWrightJS90dayChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pravallika-Kantheti/PlayWrightJS90dayChallenge/issues"
+  },
+  "homepage": "https://github.com/Pravallika-Kantheti/PlayWrightJS90dayChallenge#readme",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
