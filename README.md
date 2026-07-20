@@ -55,6 +55,9 @@ learnPlayWright2x/
 |-- chapter_25_Polymorphism/                      # Method overriding, duck typing, polymorphism in test automation
 |-- chapter_26_Typescript/                        # TypeScript basics: types, void vs never, function annotations
 |-- chapter_27_Typescript_Interface/              # Interface, abstraction, abstract classes, access modifiers
+|-- Chapter_28_ENUM/                              # Enums: numeric and string enums, enum functions, API methods
+|-- chapter_29_Typescript_Generic/                # Generics: generic functions, generic classes, API response wrapping
+|-- chapter_30_Public_private_Protected/           # Access modifiers: public, private, protected, readonly, abstract classes
 |-- README.md                                     # You are here!
 ```
 
@@ -335,6 +338,38 @@ learnPlayWright2x/
 - **Advanced Interfaces** - Function types, indexable types, multiple interface implementation
 - **Practice Exercises** - IVehicle, Shape hierarchy, DataProcessor, multiple interfaces
 
+### Chapter 28: Enums
+- **What is Enum** - Named constant values, numeric and string enums
+- **String Enums** - Assigning explicit string values to enum members
+- **Enum for Test Status** - `PASS`, `FAIL`, `SKIP`, `PENDING`, `BLOCKED`
+- **Enum for Severity Levels** - `LOW`, `MEDIUM`, `HIGH`, `CRITICAL`, `BLOCKING`
+- **Enum for Environments** - `Dev`, `Staging`, `QA`, `Prod` with URL values
+- **Enum with Functions** - Passing enums as function parameters, `switch` with enums
+- **Enum for Browser Launch** - `Chrome`, `Firefox`, `Safari`, `Edge` with launch logic
+- **Enum for HTTP Methods** - `GET`, `POST`, `PUT`, `DELETE` for API testing
+- **Real-World Examples** - API request routing, environment config, test status management
+
+### Chapter 29: TypeScript Generics
+- **What are Generics** - Type-safe reusable code with type parameters
+- **Generic Functions** - `function name<T>(arg: T): T` pattern
+- **Non-Null Assertion** - `!` operator to tell compiler a value is not null/undefined
+- **Generic Classes** - `class Container<T>` with typed arrays and methods
+- **Generic Methods** - `add()`, `getFirst()`, `getAll()`, `count()` with type safety
+- **Multiple Generic Types** - Reusing generic logic for `number`, `string`, and custom types
+- **Generic API Response** - Wrapping API responses with `wrapResponse<T>(statusCode, data)`
+- **Real-World Examples** - Test data storage, status code collections, API response wrappers
+
+### Chapter 30: Access Modifiers
+- **Public Modifier** - Accessible from anywhere, default visibility
+- **Private Modifier** - Accessible only within the class, `#` prefix and `private` keyword
+- **Protected Modifier** - Accessible within class and subclasses
+- **Readonly Properties** - Immutable fields after initialization with `readonly`
+- **API Client Example** - `public baseURL`, `private apiKey`, `protected timeout`
+- **Page Object Model** - `protected` baseURL and `navigate()` in `BasePage`, `LoginPage extends BasePage`
+- **Playwright Config** - `readonly` properties for `baseURL`, `timeout`, `retries`
+- **Abstract Classes Revisited** - `abstract` methods with `protected` fields in `BaseTest` and `UITest`
+- **Real-World Examples** - Secure API clients, POM inheritance, immutable configuration objects
+
 ---
 
 ## How to Run JS Files
@@ -475,6 +510,9 @@ npx playwright test
 | Day 25 | `chapter_25_Polymorphism` | Method overriding, duck typing, polymorphism in test automation, shapes example, Page Object Model, simulated overloading |
 | Day 26 | `chapter_26_Typescript` | TypeScript basics: primitive types, void vs never, function annotations, type guards, exhaustive checking |
 | Day 27 | `chapter_27_Typescript_Interface` | Interface, abstraction, abstract classes, interface vs abstract class, access modifiers, template method pattern |
+| Day 28 | `Chapter_28_ENUM` | Enums: numeric and string enums, enum functions, browser launch enums, HTTP method enums, environment configs |
+| Day 29 | `chapter_29_Typescript_Generic` | Generics: generic functions, non-null assertion, generic classes, test data storage, generic API responses |
+| Day 30 | `chapter_30_Public_private_Protected` | Access modifiers: public, private, protected, readonly, API client security, Page Object Model, abstract classes |
 | ... | ... | ... |
 
 ---

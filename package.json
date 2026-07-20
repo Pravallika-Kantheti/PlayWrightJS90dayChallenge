@@ -4,8 +4,7 @@
   "description": "> **Daily Learning Workspace for Modern QA Automation** > Mastering JavaScript, TypeScript, Playwright & AI-Powered Testing",
   "main": "chapter_15_2D_Array.js",
   "scripts": {
-    "ts": "ts-node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ts": "node -r ts-node/register"
   },
   "repository": {
     "type": "git",
