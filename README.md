@@ -58,6 +58,8 @@ learnPlayWright2x/
 |-- Chapter_28_ENUM/                              # Enums: numeric and string enums, enum functions, API methods
 |-- chapter_29_Typescript_Generic/                # Generics: generic functions, generic classes, API response wrapping
 |-- chapter_30_Public_private_Protected/           # Access modifiers: public, private, protected, readonly, abstract classes
+|-- chapter_31_Type_Override_Decorator/            # Type assertion with `as`, `override` keyword, decorators
+|-- chapter_32_Playwright_Fundamentals/            # Playwright setup, config, first tests, locators, assertions
 |-- README.md                                     # You are here!
 ```
 
@@ -370,6 +372,21 @@ learnPlayWright2x/
 - **Abstract Classes Revisited** - `abstract` methods with `protected` fields in `BaseTest` and `UITest`
 - **Real-World Examples** - Secure API clients, POM inheritance, immutable configuration objects
 
+### Chapter 31: Type Override & Decorator
+- **Type Assertion with `as`** - Casting `unknown` to a known interface type, accessing properties safely
+- **Type Alias Assertion** - Asserting complex object shapes (e.g., API responses with status and body)
+- **`override` Keyword** - Explicitly overriding parent class methods in subclasses for clarity and compile-time safety
+- **Decorators** - Method decorators for logging, timing, and cross-cutting concerns (`@Log`, `@logged`)
+- **Multiple Decorators** - Stacking multiple decorators on a single method, understanding execution order
+
+### Chapter 32: Playwright Fundamentals
+- **Playwright Project Setup** - Installing `@playwright/test`, scaffolding a new test project
+- **Configuration (`playwright.config.ts`)** - Browsers, parallelism, retries, workers, reporters, trace collection
+- **First Tests** - Writing basic tests with `test()` and `expect()`, page navigation with `page.goto()`
+- **Locators** - Using `getByRole()` and other locator strategies to find elements
+- **Assertions** - `toHaveTitle()`, `toBeVisible()`, and other built-in Playwright assertions
+- **HTML Reporting** - Configuring and viewing built-in HTML test reports
+
 ---
 
 ## How to Run JS Files
@@ -513,6 +530,8 @@ npx playwright test
 | Day 28 | `Chapter_28_ENUM` | Enums: numeric and string enums, enum functions, browser launch enums, HTTP method enums, environment configs |
 | Day 29 | `chapter_29_Typescript_Generic` | Generics: generic functions, non-null assertion, generic classes, test data storage, generic API responses |
 | Day 30 | `chapter_30_Public_private_Protected` | Access modifiers: public, private, protected, readonly, API client security, Page Object Model, abstract classes |
+| Day 31 | `chapter_31_Type_Override_Decorator` | Type assertion with `as`, `override` keyword, decorators, multiple decorators |
+| Day 32 | `chapter_32_Playwright_Fundamentals` | Playwright project setup, config, first tests, locators, assertions, HTML reporting |
 | ... | ... | ... |
 
 ---
